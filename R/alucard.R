@@ -1,4 +1,18 @@
 
+#' A summary of a numeric vector
+#'
+#' Custom version of \code{summary} function for a numeric vector
+#'
+#' @param x a numeric vector
+#' @param na.rm an optional logical parameter. \code{TURE} by default
+#'
+#' @return A named vector with six values
+#' @export
+#' @examples
+#' \dontrun{
+#' x <- c(4,7,8)
+#' numeric_summary(x)
+#'}
 #must include email address only for maintainer
 #cre stands for maintainer
 #cph copy right
@@ -19,7 +33,23 @@ numeric_summary <- function(x, na.rm=T){
 
 }
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 # This function creates a summary for a character vector
+
+#' A summary of a character vector
+#'
+#' Custom version of summary function for a character vector
+#'
+#' @param x a character vector
+#' @param na.rm an optional logical parameter. TRUE by default
+#'
+#' @return A named vector with six values
+#' @export
+#'
+#' @examples
+#' x <- c("A","b","c","E")
+#' numeric_summary(x)
 char_summary <- function(x, na.rm=T){
 
   length = length(x)
