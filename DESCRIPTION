@@ -1,5 +1,5 @@
 Package: myutils
-Type: Package
+Type: Package     
 Title: A set of useful utilities
 Version: 0.1.1
 Authors@R: 
