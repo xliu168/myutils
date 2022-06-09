@@ -19,5 +19,5 @@ Custom version of summary function for a character vector
 }
 \examples{
 x <- c("A","b","c","E")
-numeric_summary(x)
+char_summary(x)
 }

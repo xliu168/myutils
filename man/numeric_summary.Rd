@@ -4,12 +4,14 @@
 \alias{numeric_summary}
 \title{A summary of a numeric vector}
 \usage{
-numeric_summary(x, na.rm = T)
+numeric_summary(x, na.rm = T, verbose = F)
 }
 \arguments{
 \item{x}{a numeric vector}
 
 \item{na.rm}{an optional logical parameter. \code{TURE} by default}
+
+\item{verbose}{is TRUE for verbose output}
 }
 \value{
 A named vector with six values
